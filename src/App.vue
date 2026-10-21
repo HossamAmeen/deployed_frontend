@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const frontendVersion = __APP_VERSION__
-const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const apiUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
 
 const backendVersion = ref(null)
 const error = ref(null)
